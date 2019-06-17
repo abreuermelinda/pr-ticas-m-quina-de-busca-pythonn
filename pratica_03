@@ -1,0 +1,22 @@
+Criando um Ambiente Virtual
+
+Crie um ambiente virtual com o nome “maquinadebusca”. Então, na linha de commando do terminal, digite “mkvirtualenv maquinadebusca”. Esse comando cria uma pasta com os arquivos python.exe, pip e configurações para um ambiente. Esse comando também ativa o ambiente virtual, o que fica indicado com “(maquinadebusca)” no lado esquerdo da linha do prompt de comando.
+
+Agora, qualquer programa que for instalado será específico desse projeto. Essas instalações também ficarão disponíveis para outros projetos que forem conectados a esse ambiente virtual.
+Conectando um Projeto a um Ambiente Virtual
+Crie um diretório com o mesmo nome do ambiente virtual: “maquinadebusca”.
+Em seguida, mude para esse diretório.
+
+Nesse exemplo, “maquinadebusca” é o diretório raiz do projeto. Então, execute o comando “setprojectdir .”, para ligar o diretório corrente ao ambiente virtual corrente, como indicado no lado esquerdo da linha do prompt de comando.
+
+Agora, da próxima vez que esse ambiente virtual for ativado, o prompt de comando será automaticamente movido para esse diretório.
+
+Desativando um Ambiente Virtual
+Para desativar o ambiente virtual, execute o comando “deactivate”.
+
+Observe que a indicação “(maquinadebusca)” do ambiente virtual é removida da linha do prompt de comando. Entretanto, você não precisa desativar seu ambiente virtual manualmente. Ao fechar a janela do terminal corrente, encerrando o prompt de comando, automaticamente desativará o ambiente virtual. Quando a indicação entre parênteses do ambiente virtual é removida, nenhuma nova instalação irá afetar o ambiente virtual, mas poderá afetar a instalação raiz da linguagem Python.
+
+Ativando um Ambiente Virtual
+Ative o ambiente virtual novamente, executando o comando “workon maquinadebusca”.
+Observe que a indicação “(maquinadebusca)” do ambiente virtual é novamente inserida na linha do prompt de comando. Caso você tenha executado o comando “workon maquinadebusca” em diretório diferente, o prompt de comando automaticamente mudaria para o diretório do projeto.
+

@@ -1,0 +1,32 @@
+Intalação do pip e do ambiente virtual
+
+
+pip (package installer for Python)
+pip é o instalador, gerenciador, de pacotes do Python.
+1) Verifique se sua máquina está com a versão mais recente do pip. Execute o commando:
+pip –version
+
+
+Caso seja necessário instalar uma versão mais recente do pip, execute o comando:
+python -m pip install --upgrade pip
+
+Caso seja necessário, execute o terminal como administrador, para conseguir instalar a versão mais recente do pip. 
+Clique com o botão direito do mouse sobre o ícone do terminal. 
+Em seguida, clique novamente com o botão direito do mouse sobre a opção “Prompt de Comando”. 
+Então, clique na opção “Executar como administrador”.
+
+Ambiente Virtual
+O ambiente virtual (Virtual Environment) permite o desenvolvimento de aplicações em um ambiente encapsulado. Isso evita a inserção de bibliotecas desnecessárias na instalação básica de Python. Dessa forma, podemos usar bibliotecas específicas para cada projeto sem que as bibliotecas de um projeto interfiram nos demais projetos.
+2) Instale o ambiente virtual. Num terminal, execute o comando:
+pip install virtualenv
+
+Caso seja necessário, execute o terminal como administrador, para conseguir realizar a instalação. Clique com o botão direito do mouse sobre o ícone do terminal. Em seguida, clique novamente com o botão direito do mouse sobre a opção “Prompt de Comando”. Então, clique na opção “Executar como administrador”.
+
+
+Empacotador de Ambiente Virtual (virtualenvwrapper)
+O Empacotador de Ambiente Virtual (Virtual Environment Wrapper - virtualenvwrapper) ajuda gerenciar ambientes virtuais.
+3) Instale o virtualenvwrapper executando o commando:
+pip install virtualenvwrapper-win
+
+Caso seja necessário, execute o terminal como administrador, para realizar a instalação. Clique com o botão direito do mouse sobre o ícone do terminal. Em seguida, clique novamente com o botão direito do mouse sobre a opção “Prompt de Comando”. Então, clique na opção “Executar como administrador”.
+
